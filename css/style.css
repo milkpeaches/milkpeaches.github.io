@@ -163,7 +163,7 @@ header[role="header"]{ padding-top:80px; padding-bottom:0px}
 
 header[role="header"] h1{ padding:0; margin:0}
 
-header[role="header"] h1 > a{ max-width:66px; display:block; float:left}
+header[role="header"] h1 > a{ max-width:66px; display:block;}
 
 header[role="header"] nav{ padding-top:10px;transition-delay: 0s;
 
@@ -231,7 +231,7 @@ footer[role="footer"] nav{ padding-top:37px; padding-bottom:43px}
 
 footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
 
-footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:uppercase; font-size:15px; margin:0 13px}
+footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:lowercase; font-size:15px; margin:0 13px}
 
 footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
 
@@ -521,7 +521,7 @@ ul {
 /* = Navigation bar
 -------------------------------------------------------------- */
 .main {
-    width: 80%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -531,8 +531,8 @@ ul {
     background-color: transparent;
     padding: 1% 0;
     border: 0;
-    text-transform: uppercase;
-    font-family: 'Lekton', sans-serif;
+    text-transform: lowercase;
+    /*font-family: 'Lekton', sans-serif;*/
     font-size: 1.2em;
 }
 
@@ -575,7 +575,7 @@ ul {
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
-    background-color: #fff;
+    /*background-color: #fff;*/
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
@@ -590,7 +590,7 @@ ul {
     font-size: .8em;
     font-weight: 200px;
     letter-spacing: 1px;
-    font-weight: bold;
+    /*font-weight: semibold;*/
 }
 .navbar-nav>li>a{
     line-height: 8px;
@@ -628,6 +628,9 @@ ul {
 
 /* mobile versions: */
 @media (max-width: 992px) {
+    .main{
+    	width: 100%;
+    }
     .carousel-caption { /*caption will not display on mobile*/
         display: none;
     }
@@ -652,7 +655,7 @@ ul {
     .navbar-inverse .navbar-toggle{
         border-radius: 0;
         border-color: transparent;
-        margin-top:35px;
+        /*margin-top:35px;*/
     }
     .intro-wrapper {
         float: left;
@@ -663,7 +666,7 @@ ul {
         /*padding:0px;*/
     }
     .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
-        min-height: 130px;
+        /*min-height: 130px;*/
     }
 
     .intro-wrapper article {
