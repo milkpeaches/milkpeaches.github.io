@@ -50,7 +50,7 @@
 
 @media (max-width: 767px) {
 
-	header[role="header"]{ padding:8% 0;}
+	/*header[role="header"]{ padding:8% 0;}*/
 
 	header[role="header"] nav ul{ padding-top:10%}
 
