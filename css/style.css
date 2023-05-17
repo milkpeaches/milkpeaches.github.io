@@ -231,9 +231,9 @@ footer[role="footer"] nav{ padding-top:37px; padding-bottom:43px}
 
 footer[role="footer"] nav > ul{ text-align:center; padding:0; margin:0}
 
-footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:lowercase; font-size:15px; margin:0 13px}
+footer[role="footer"] nav > ul > li{ display: inline-block; text-transform:lowercase; font-size:1em; letter-spacing: 1px; margin:0 13px;}
 
-footer[role="footer"] nav > ul > li > a{ color:#9d9d9d}
+footer[role="footer"] nav > ul > li > a{ color:#6F6F6F}
 
 footer[role="footer"] nav > ul > li:hover a{ text-decoration:none; color:#fb5353}
 
@@ -241,11 +241,11 @@ footer[role="footer"] ul[role="social-icons"]{ padding:0; margin:0; text-align:c
 
 footer[role="footer"] ul[role="social-icons"] > li{ display: inline-block; margin:0 6.5px}
 
-footer[role="footer"] ul[role="social-icons"] > li > a{ display:block; width:42px; height:42px; background-color:#bbbbbb; color:#FFF; line-height:42px; font-size:20px; border-radius:100%; text-align:center}
+footer[role="footer"] ul[role="social-icons"] > li > a{ display:block; width:42px; height:42px; background-color:#909090; color:#FFF; line-height:42px; font-size:20px; border-radius:100%; text-align:center}
 
 footer[role="footer"] ul[role="social-icons"] > li:hover a{ background-color:#fb5353}
 
-footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:12px; line-height:13px; color:#9c9c9c}
+footer[role="footer"] .copy-right{ text-align:center; display:block; font-size:12px; line-height:13px; color:#6F6F6F}
 
 /*===== About ===*/
 
