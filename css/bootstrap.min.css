@@ -1378,13 +1378,13 @@ button,input,select,textarea {
 }
 
 a {
-    color: #337ab7;
-    text-decoration: none
+    color: #454545;
+    text-decoration: none;
 }
 
 a:focus,a:hover {
-    color: #23527c;
-    text-decoration: underline
+    color: #fb5353;
+    /*text-decoration: underline; */
 }
 
 a:focus {
@@ -1392,6 +1392,35 @@ a:focus {
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px
 }
+
+
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -2px;
+  background: #fb5353;
+  height: 2px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
 
 figure {
     margin: 0;
@@ -1524,7 +1553,8 @@ hr {
 
 p {
     /*margin: 0 0 10px*/
-    margin: 0 0 0px
+    margin: 0 0 0px;
+    margin-bottom: 10px;
 }
 
 .lead {
