@@ -587,7 +587,7 @@ ul {
 }
 
 .navbar-inverse .navbar-nav>li>a{
-    font-size: .8em;
+    font-size: 1em;
     font-weight: 200px;
     letter-spacing: 1px;
     /*font-weight: semibold;*/
