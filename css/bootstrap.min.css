@@ -1378,8 +1378,10 @@ button,input,select,textarea {
 }
 
 a {
-    color: #454545;
-    text-decoration: none;
+    color: #fb5353;
+/*    text-decoration-line: underline;*/
+    text-decoration-color: #fb5353;  
+/*  top: ;text-decoration-style: dotted;*/
 }
 
 a:focus,a:hover {
@@ -1540,7 +1542,10 @@ hr {
 }
 
 .h4,h4 {
-    font-size: 18px
+    font-family: "Noto Serif Display", serif;
+     color:#343434; 
+     font-size:28px; font-weight:700
+}
 }
 
 .h5,h5 {
