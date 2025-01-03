@@ -403,7 +403,7 @@ article[role="pge-title-content"].contact-header p a:hover{color:#fb5353; text-d
 
 /* Center website */
 .main {
-  max-width: 1170px;
+  max-width: 1275px;
   margin: auto;
 }
 
@@ -524,7 +524,7 @@ ul {
 /* = Navigation bar
 -------------------------------------------------------------- */
 .main {
-    width: 85%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
